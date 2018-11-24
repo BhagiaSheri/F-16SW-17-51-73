@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/action_setting"
+    android:title="Settings"
+    android:icon="@drawable/ic_search"
+    app:showAsAction="never"
+    android:orderInCategory="3"
+    />
+    <item
+        android:id="@+id/signin"
+        android:title="SignIn"
+        app:showAsAction="never"
+        android:orderInCategory="2"
+        />
+    <item
+        android:id="@+id/login"
+        android:title="Login"
+        app:showAsAction="never"
+        android:orderInCategory="1"
+        />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="searching"
+        app:showAsAction="collapseActionView|ifRoom"
+        />
+</menu>
